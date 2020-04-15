@@ -1,9 +1,5 @@
 " display a tab as 2 spaces
-if $HOSTNAME == "unixdeva16" || $HOSTNAME == "lmsappa01" || $HOSTNAME == "lmsappb01"
-  set tabstop=4
-else
-  set tabstop=2
-endif
+set tabstop=2
 
 set expandtab
 set shiftwidth=2
